@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pl' Physical Memory: 32637 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'pl' Physical Memory: 32609 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\_Soft\Unity 2022.3.8f1(Switch)\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/_Workspace/taptap-cubepath-develop
+C:/Users/PC/Desktop/Cube-path
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54201
-Successfully changed project path to: C:/_Workspace/taptap-cubepath-develop
-C:/_Workspace/taptap-cubepath-develop
+61046
+Successfully changed project path to: C:/Users/PC/Desktop/Cube-path
+C:/Users/PC/Desktop/Cube-path
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,66 +49,65 @@ C:/_Workspace/taptap-cubepath-develop
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31372] Host "[IP] 192.168.31.90 [Port] 0 [Flags] 2 [Guid] 1892067407 [EditorId] 1892067407 [Version] 1048832 [Id] WindowsEditor(7,TomaszR-P2C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30984] Host "[IP] 192.168.0.179 [Port] 0 [Flags] 2 [Guid] 3982141790 [EditorId] 3982141790 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CQ350GE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31372] Host "[IP] 192.168.31.90 [Port] 0 [Flags] 2 [Guid] 1892067407 [EditorId] 1892067407 [Version] 1048832 [Id] WindowsEditor(7,TomaszR-P2C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30984] Host "[IP] 192.168.0.179 [Port] 0 [Flags] 2 [Guid] 3982141790 [EditorId] 3982141790 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CQ350GE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 12.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 7.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
-[Subsystems] Discovering subsystems at path C:/_Soft/Unity 2022.3.8f1(Switch)/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/_Workspace/taptap-cubepath-develop/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Desktop/Cube-path/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   NVIDIA
-    VRAM:     12115 MB
-    Driver:   31.0.15.5222
+    VRAM:     8038 MB
+    Driver:   31.0.15.4633
 Initialize mono
-Mono path[0] = 'C:/_Soft/Unity 2022.3.8f1(Switch)/Editor/Data/Managed'
-Mono path[1] = 'C:/_Soft/Unity 2022.3.8f1(Switch)/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/_Soft/Unity 2022.3.8f1(Switch)/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/_Soft/Unity 2022.3.8f1(Switch)/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/_Soft/Unity 2022.3.8f1(Switch)/Editor/Data/PlaybackEngines/Switch/UnityEditor.Switch.Extensions.dll
-Registered in 0.006502 seconds.
-- Loaded All Assemblies, in  0.305 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005481 seconds.
+- Loaded All Assemblies, in  0.310 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.292 seconds
-Domain Reload Profiling: 595ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.173 seconds
+Domain Reload Profiling: 482ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (115ms)
-		LoadAssemblies (98ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (118ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (112ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
 				TypeCache.ScanAssembly (101ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (292ms)
+	FinalizeReload (173ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (237ms)
+		SetupLoadedEditorAssemblies (133ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (87ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (90ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,55 +116,55 @@ Domain Reload Profiling: 595ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.530 seconds
-Refreshing native plugins compatible for Editor in 8.06 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.493 seconds
+Refreshing native plugins compatible for Editor in 4.19 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.740 seconds
-Domain Reload Profiling: 1267ms
-	BeginReloadAssembly (135ms)
+- Finished resetting the current domain, in  0.456 seconds
+Domain Reload Profiling: 946ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (312ms)
-		LoadAssemblies (283ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (274ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (92ms)
-				TypeCache.ScanAssembly (78ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (741ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (456ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (610ms)
+		SetupLoadedEditorAssemblies (357ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (59ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (333ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 8.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 6.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 73 unused Assets / (76.0 KB). Loaded Objects now: 2992.
-Memory consumption went from 111.2 MB to 111.1 MB.
-Total: 6.167100 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.157300 ms MarkObjects: 5.665200 ms  DeleteObjects: 0.158800 ms)
+Unloading 2541 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (68.6 KB). Loaded Objects now: 2992.
+Memory consumption went from 106.6 MB to 106.6 MB.
+Total: 6.700600 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.086500 ms MarkObjects: 6.359700 ms  DeleteObjects: 0.118800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -180,56 +179,615 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 12370.286318 seconds.
+  path: Assets/Universal Sound FX/BREAKS_SNAPS/SNAP_Twig_mono.wav
+  artifactKey: Guid(77e8794d6c5238f4baed6f498ca7e4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BREAKS_SNAPS/SNAP_Twig_mono.wav using Guid(77e8794d6c5238f4baed6f498ca7e4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92f2e34ae7e58ed107accd3fb3ff21de') in 0.096421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Universal Sound FX/BUTTONS/BUTTON_Medium_Click_mono.wav
+  artifactKey: Guid(0cf841629c36e714b89c795264a5bf2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BUTTONS/BUTTON_Medium_Click_mono.wav using Guid(0cf841629c36e714b89c795264a5bf2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c69c32a20ea5ff371dea695753171720') in 0.029408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Complex_Wet_12_Semi_High_Loop_loop_stereo.wav
+  artifactKey: Guid(4427ca3c0108f0c4c8b7b321d2624d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Complex_Wet_12_Semi_High_Loop_loop_stereo.wav using Guid(4427ca3c0108f0c4c8b7b321d2624d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9da097c705f8aa70402c597cc5140a64') in 0.046971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Complex_Wet_12_Semi_Up_4000ms_stereo.wav
+  artifactKey: Guid(da3f7ef0a2405e14192670039d79090d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Complex_Wet_12_Semi_Up_4000ms_stereo.wav using Guid(da3f7ef0a2405e14192670039d79090d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed43400075748fa6724bea05b8781356') in 0.045265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Compressor_Small_01_stereo.wav
+  artifactKey: Guid(d6dcddd5ea003984ebec73c5d4db55d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Compressor_Small_01_stereo.wav using Guid(d6dcddd5ea003984ebec73c5d4db55d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2dbe94cefeea6480944c96116b78c8a') in 0.033436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/BREAKS_SNAPS/BREAK_Fast_stereo.wav
+  artifactKey: Guid(856bb76f5ad097e448d63b648cffc8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BREAKS_SNAPS/BREAK_Fast_stereo.wav using Guid(856bb76f5ad097e448d63b648cffc8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af1485902fae40c09c106cbcf543b854') in 0.045357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Universal Sound FX/BUTTONS/BUTTON_Plastic_Light_Switch_Off_mono.wav
+  artifactKey: Guid(0823989b2a5e1334c961c6d491e4d42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BUTTONS/BUTTON_Plastic_Light_Switch_Off_mono.wav using Guid(0823989b2a5e1334c961c6d491e4d42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bb16554f942192afc0acd97782ab633') in 0.030643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Fan_Plastic_Metallic_Turn_02_stereo.wav
+  artifactKey: Guid(1388afaf31b18034eb819a30981a5444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Fan_Plastic_Metallic_Turn_02_stereo.wav using Guid(1388afaf31b18034eb819a30981a5444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7523b1090e592de4a7bc3dfaf0cfd455') in 0.030383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Complex_Wet_12_Semi_Up_2000ms_stereo.wav
+  artifactKey: Guid(67f9787d501a52e4580c2b4a20750d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Complex_Wet_12_Semi_Up_2000ms_stereo.wav using Guid(67f9787d501a52e4580c2b4a20750d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fc8c21d95ce6d53b419060887ccff16') in 0.050472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Electric_Sander_Crop_01_stereo.wav
+  artifactKey: Guid(25ff759af00ef664f988295868dd7283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Electric_Sander_Crop_01_stereo.wav using Guid(25ff759af00ef664f988295868dd7283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e294dd2c73a710225cadcbf4de8223f') in 0.031583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Wrench_01_stereo.wav
+  artifactKey: Guid(6ffa264615171b34aadec9f6db8ec007) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Wrench_01_stereo.wav using Guid(6ffa264615171b34aadec9f6db8ec007) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b06a3e3f2bba9cbd200069ec5ce711c0') in 0.164237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FoggyLights/Documentation.pdf
+  artifactKey: Guid(c4fd87ab1c69ccc41ae24050e9483cad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FoggyLights/Documentation.pdf using Guid(c4fd87ab1c69ccc41ae24050e9483cad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7365797767c539ed5ac9585ffc1efc88') in 0.021547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_ColorPath/Sprites/1024.jpg
+  artifactKey: Guid(736a4e68738544d2084ab89bcda3f21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ColorPath/Sprites/1024.jpg using Guid(736a4e68738544d2084ab89bcda3f21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f759241fe963efa5f25d05d9a446fca') in 0.071473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Universal Sound FX/BREAKS_SNAPS/CRACK_Bright_Crisp_01_mono.wav
+  artifactKey: Guid(f4d82a9302cc3ab4db395f379cfb7ce4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BREAKS_SNAPS/CRACK_Bright_Crisp_01_mono.wav using Guid(f4d82a9302cc3ab4db395f379cfb7ce4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2e6400d6c3c136e4546e80b04f96b4e') in 0.029886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Universal Sound FX/BUTTONS/BUTTON_Clean_mono.wav
+  artifactKey: Guid(e89a82170f95767489e62110bcb7c809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BUTTONS/BUTTON_Clean_mono.wav using Guid(e89a82170f95767489e62110bcb7c809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4ee5b899c09eef66c6705b496957825') in 0.030968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Universal Sound FX/BREAKS_SNAPS/CRACK_Bright_Crisp_02_mono.wav
+  artifactKey: Guid(161c2c2c29c4dac46a8567d49282494f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BREAKS_SNAPS/CRACK_Bright_Crisp_02_mono.wav using Guid(161c2c2c29c4dac46a8567d49282494f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3931f7fabb939e76787109301ead26d1') in 0.032427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Euro_Power_Socket_Lid_01_stereo.wav
+  artifactKey: Guid(3dccc6b2bef8a7941b7d3f0ed9bcd909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/BUTTONS/BUTTON_Click_Euro_Power_Socket_Lid_01_stereo.wav using Guid(3dccc6b2bef8a7941b7d3f0ed9bcd909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e55628a79f5f8ae234b59c3518accad') in 0.031983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Sci-Fi_High_Pass_Sweep_12_Semi_Down_8000ms_stereo.wav
+  artifactKey: Guid(73685672399e35a429747faf589bf663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Sci-Fi_High_Pass_Sweep_12_Semi_Down_8000ms_stereo.wav using Guid(73685672399e35a429747faf589bf663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1791ffb0e742ef27ced4717ce6d1442') in 0.052622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.665561 seconds.
+  path: Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Servo_24_Semi_Down_1000ms_stereo.wav
+  artifactKey: Guid(42fda8e90b30d5c4ba44d2ccb7387dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Servo_24_Semi_Down_1000ms_stereo.wav using Guid(42fda8e90b30d5c4ba44d2ccb7387dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9269899bd9f79fbfb2f751ea062cd3a') in 0.055764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Dubstep_Positive_stereo.wav
+  artifactKey: Guid(5e448da6710484a49b1acf902ad146ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Dubstep_Positive_stereo.wav using Guid(5e448da6710484a49b1acf902ad146ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80fc6bd00c0b5f9ca2295f14d46ad178') in 0.048415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Flame_01_mono.wav
+  artifactKey: Guid(8d530c3462669b54ab13d44065f77721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Flame_01_mono.wav using Guid(8d530c3462669b54ab13d44065f77721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8850cb19089a57bf11854d958047cc45') in 0.030607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Servo_24_Semi_Up_2000ms_stereo.wav
+  artifactKey: Guid(545704946a0271c4da572d35c2f6af5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Servo_24_Semi_Up_2000ms_stereo.wav using Guid(545704946a0271c4da572d35c2f6af5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ec92a41ef1f898b1eb5db08d7f51d10') in 0.047145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Morphing_Synth_Harp_Scales_Subtle_stereo.wav
+  artifactKey: Guid(a47ffedd683a50c48850850303d7edc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Morphing_Synth_Harp_Scales_Subtle_stereo.wav using Guid(a47ffedd683a50c48850850303d7edc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33d3075941c75f99d46daed82af0efe8') in 0.045944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Scary_Raising_Reverse_Rain_stereo.wav
+  artifactKey: Guid(4efd08afe44384046bfedf52fba1d95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Scary_Raising_Reverse_Rain_stereo.wav using Guid(4efd08afe44384046bfedf52fba1d95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04833fc6ae436b0804595838afb74946') in 0.076465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Flyby_Whoosh_Airy_Pad_Subtle_stereo.wav
+  artifactKey: Guid(40dc1da9e33a3d248b53ca23b574c013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Flyby_Whoosh_Airy_Pad_Subtle_stereo.wav using Guid(40dc1da9e33a3d248b53ca23b574c013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78c6cafe3b7853f945eb935de622defe') in 0.053530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Fade_In_Metallic_Pingpong_Fade_Subtle_stereo.wav
+  artifactKey: Guid(d17144492a26f9449bf1a0ffa8c41404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Fade_In_Metallic_Pingpong_Fade_Subtle_stereo.wav using Guid(d17144492a26f9449bf1a0ffa8c41404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43c4de3c832baf9bff022c3b40a3cec6') in 0.050476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Deep_Tone_Bubbling_Zaps_Subtle_stereo.wav
+  artifactKey: Guid(ba71602b8315e5743a2e830f23673fe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Deep_Tone_Bubbling_Zaps_Subtle_stereo.wav using Guid(ba71602b8315e5743a2e830f23673fe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb2c3363a2395016e5cf452436885f91') in 0.047501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Distinct_Thrust_Bright_Pad_stereo.wav
+  artifactKey: Guid(2d81e87326882f444a03d2a985019731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Distinct_Thrust_Bright_Pad_stereo.wav using Guid(2d81e87326882f444a03d2a985019731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df017da78f0504ebe0021c1ccb590609') in 0.046120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Fade_In_Metallic_Pingpong_Fade_stereo.wav
+  artifactKey: Guid(09705c22fabb49849aa3cfe385d25a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Fade_In_Metallic_Pingpong_Fade_stereo.wav using Guid(09705c22fabb49849aa3cfe385d25a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7a6e134dedeb3a0dea6f1c8db42e924') in 0.045033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Sweep_mono.wav
+  artifactKey: Guid(bbdd7b0756abc28468d735f4a19c4623) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Sweep_mono.wav using Guid(bbdd7b0756abc28468d735f4a19c4623) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c502da55b273daf98e9dc1e02c097d1a') in 0.040748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Servo_24_Semi_High_Loop_loop_stereo.wav
+  artifactKey: Guid(20c086e9f6cc9e044aecdb7c9a33f569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/CHARGE_UPS_DOWNS/CHARGE_Servo_24_Semi_High_Loop_loop_stereo.wav using Guid(20c086e9f6cc9e044aecdb7c9a33f569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '833058dd03f89eba352fedad1c69bce1') in 0.045025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Overdrive_mono.wav
+  artifactKey: Guid(1bdca56a889386449899fe990eaef5b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Overdrive_mono.wav using Guid(1bdca56a889386449899fe990eaef5b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ed9573eeabef8e0565059952864ad95') in 0.030579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Distinct_Thrust_Bright_Pad_Subtle_stereo.wav
+  artifactKey: Guid(86b89ce539682a94794d9bbc3c311fe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Distinct_Thrust_Bright_Pad_Subtle_stereo.wav using Guid(86b89ce539682a94794d9bbc3c311fe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df02048f6068add33e156e571bdd7c0a') in 0.045514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Metallic_Rain_Down_stereo.wav
+  artifactKey: Guid(1d0ed0a021cb827408020203a3dd932e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Metallic_Rain_Down_stereo.wav using Guid(1d0ed0a021cb827408020203a3dd932e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2e5064484f134dbeb529f7cd9214245') in 0.047984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Attacking_Climbing_Bells_stereo.wav
+  artifactKey: Guid(ed62eb839ebc4d748b1c0cb60360379c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Attacking_Climbing_Bells_stereo.wav using Guid(ed62eb839ebc4d748b1c0cb60360379c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7ec72a2817e85c995b6f76ef7679944') in 0.050504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Piano_Negative_stereo.wav
+  artifactKey: Guid(8d0b169e97e50534ba2533f1ca53f8fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Piano_Negative_stereo.wav using Guid(8d0b169e97e50534ba2533f1ca53f8fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54d11b7f354f3f055294d44487f1f889') in 0.046516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Ghost_Metallic_Whoosh_Subtle_stereo.wav
+  artifactKey: Guid(356c34453d57f4d41abed16ef70d29fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MAGIC_SPELLS/MAGIC_SPELL_Ghost_Metallic_Whoosh_Subtle_stereo.wav using Guid(356c34453d57f4d41abed16ef70d29fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7eaef0c32ce8fd99628d9708be05bd0') in 0.044313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.592139 seconds.
+  path: Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Platform_Positive_03b_Slow_stereo.wav
+  artifactKey: Guid(447d7c5c63e7d6d48b7b07c5e9f9ef4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Platform_Positive_03b_Slow_stereo.wav using Guid(447d7c5c63e7d6d48b7b07c5e9f9ef4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc6b94051e61eaa232f724c970a3d9cc') in 0.055283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_2_One_Note_Dry_stereo.wav
+  artifactKey: Guid(db744b198ea17d4469e25711efeb6671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_2_One_Note_Dry_stereo.wav using Guid(db744b198ea17d4469e25711efeb6671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6917d73c8881bb06837190f38b78cdb') in 0.047943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_01_Warp_B_stereo.wav
+  artifactKey: Guid(e601dc049e92bc54b99fbee374ecb4ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_01_Warp_B_stereo.wav using Guid(e601dc049e92bc54b99fbee374ecb4ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '796c3d389385b46e60922d6da9be1142') in 0.044199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Three_Note_Bright_End_Wet_stereo.wav
+  artifactKey: Guid(6b1e8d228b19b5b4993bda9d06bb251e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Three_Note_Bright_End_Wet_stereo.wav using Guid(6b1e8d228b19b5b4993bda9d06bb251e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66bc7e71e7f3fa325db8801b6aa3178c') in 0.039477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Quick_Charge_Jump_Away_01_mono.wav
+  artifactKey: Guid(6fcea55cdf8f17c41b3970122156b2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Quick_Charge_Jump_Away_01_mono.wav using Guid(6fcea55cdf8f17c41b3970122156b2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8b933b1e079bdc51269197c16865ea2') in 0.029962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Two_Note_Fast_Wet_stereo.wav
+  artifactKey: Guid(837600496ba4b4743a0dfb321609f375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Two_Note_Fast_Wet_stereo.wav using Guid(837600496ba4b4743a0dfb321609f375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '855a028d7ba229c3ab4eeaf86ad40ffd') in 0.045466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_01_Warp_C_stereo.wav
+  artifactKey: Guid(0ffaabedf9d9b5040963de75c9a60bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_01_Warp_C_stereo.wav using Guid(0ffaabedf9d9b5040963de75c9a60bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f61b83f301b79819cd6e5ab0cb25caa') in 0.043501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Space_Synth_Negative_01a_stereo.wav
+  artifactKey: Guid(e9609833376cffb4f8339050ec4f9c53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Space_Synth_Negative_01a_stereo.wav using Guid(e9609833376cffb4f8339050ec4f9c53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a9b69d631686255ce978427cc543ec4') in 0.043418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Universal Sound FX/SQUEAKS/SQUEAK_Metal_Hinge_05_mono.wav
+  artifactKey: Guid(19f08c92901e625429672460ada82481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SQUEAKS/SQUEAK_Metal_Hinge_05_mono.wav using Guid(19f08c92901e625429672460ada82481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7560bc249f92242918934bf880cc1b5') in 0.028262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_2_Fast_Two_Note_Dry_stereo.wav
+  artifactKey: Guid(f16436882b3db3343873ade94c213e0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_2_Fast_Two_Note_Dry_stereo.wav using Guid(f16436882b3db3343873ade94c213e0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d420d185cc5b8abd3ee8766f91fc6a9') in 0.047203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Universal Sound FX/THUDS_THUMPS/THUD_Smooth_02_mono.wav
+  artifactKey: Guid(997abee33cf357048aaac3a41612151a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/THUDS_THUMPS/THUD_Smooth_02_mono.wav using Guid(997abee33cf357048aaac3a41612151a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaa00e108624f8b285409992d0660a57') in 0.028171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Three_Note_Fast_Wet_stereo.wav
+  artifactKey: Guid(1c33c058a2ef0df4cb390fe179dff7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Three_Note_Fast_Wet_stereo.wav using Guid(1c33c058a2ef0df4cb390fe179dff7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab69b730348c097c5f634d6a57a3ba82') in 0.047626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_1_Three_Note_Wet_stereo.wav
+  artifactKey: Guid(8f86eb87f6dc29c4fbbf64a18beac1ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_1_Three_Note_Wet_stereo.wav using Guid(8f86eb87f6dc29c4fbbf64a18beac1ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c11cd7beeec920c1e7c46d18291aa48e') in 0.044326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_2_Two_Note_Decline_Bright_Wet_stereo.wav
+  artifactKey: Guid(fc6527d1165b8914680e22f8fa5ce6c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_2_Two_Note_Decline_Bright_Wet_stereo.wav using Guid(fc6527d1165b8914680e22f8fa5ce6c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '632aa702ab8796f027f2a390d64b9f5e') in 0.044839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_2_Two_Note_Decline_Bright_Delay_stereo.wav
+  artifactKey: Guid(0374b3d1ba390be479d11197558025d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_2_Two_Note_Decline_Bright_Delay_stereo.wav using Guid(0374b3d1ba390be479d11197558025d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dce88b1d89738f7b19f2498fdeb1ecc5') in 0.044580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02A_Charge_Up_1_stereo.wav
+  artifactKey: Guid(7f50b00dec92a25449d3911b78342ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02A_Charge_Up_1_stereo.wav using Guid(7f50b00dec92a25449d3911b78342ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e51bbd983920998c0ea320f56c79b0e4') in 0.043833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_2_Three_Note_Dry_stereo.wav
+  artifactKey: Guid(f325154d6a5b91140a47a403d678426b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_2_Three_Note_Dry_stereo.wav using Guid(f325154d6a5b91140a47a403d678426b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc79cd8c7fb8712c9f6e8b2c24aba7b8') in 0.043756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Complex_03_stereo.wav
+  artifactKey: Guid(64b4630a0369edc42911f26ecc49b629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Complex_03_stereo.wav using Guid(64b4630a0369edc42911f26ecc49b629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cea5c2e185d4337814d6ada5b53cec29') in 0.042660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02_Warp_E_stereo.wav
+  artifactKey: Guid(dd44f3543e2ad61408829194e263ef33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02_Warp_E_stereo.wav using Guid(dd44f3543e2ad61408829194e263ef33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26fe8fd3d423ded1b3057fdaea6e9d64') in 0.041882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Piano_Three_Note_Fast_Bright_Soft_Dry_stereo.wav
+  artifactKey: Guid(055dd2dbb66659b428e7b827de0978f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Piano_Three_Note_Fast_Bright_Soft_Dry_stereo.wav using Guid(055dd2dbb66659b428e7b827de0978f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d17cd6bc6ad49df1bb7c396b17ce2ff') in 0.045818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02_Warp_B_stereo.wav
+  artifactKey: Guid(b5022ad23dc94f54f90042d76f0ed7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02_Warp_B_stereo.wav using Guid(b5022ad23dc94f54f90042d76f0ed7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abd8b1f0f4a7a57e981c19d599328107') in 0.045906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_2_Very_Fast_Three_Note_Delay_stereo.wav
+  artifactKey: Guid(c1b46687333739648834fdfa165dff96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_2_Very_Fast_Three_Note_Delay_stereo.wav using Guid(c1b46687333739648834fdfa165dff96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2aa109321e5af0df8a7ffcfb5de23fd6') in 0.043839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Universal Sound FX/THUDS_THUMPS/THUD_Dark_03_Short_mono.wav
+  artifactKey: Guid(3dbabf924859ee04d81bd13942d7b4f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/THUDS_THUMPS/THUD_Dark_03_Short_mono.wav using Guid(3dbabf924859ee04d81bd13942d7b4f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e262c164aedb0fb39233c128e075379') in 0.028436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Complex_02_stereo.wav
+  artifactKey: Guid(98f8e006cc88bd647843e14b803ac63b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Complex_02_stereo.wav using Guid(98f8e006cc88bd647843e14b803ac63b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84771d60c0be0d566cedc7ac692024de') in 0.042845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Digital_Three_Note_Climb_Dry_stereo.wav
+  artifactKey: Guid(13b9f1fd87d376e44b0e5ee7d32bb8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Digital_Three_Note_Climb_Dry_stereo.wav using Guid(13b9f1fd87d376e44b0e5ee7d32bb8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9d8d504570ec8152b2c889742ac8bbe') in 0.050613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02_Warp_F_stereo.wav
+  artifactKey: Guid(d8998824601a6c34c8f706accf396a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02_Warp_F_stereo.wav using Guid(d8998824601a6c34c8f706accf396a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ea9e2d6f1c70e18944f402bc7bb0a66') in 0.054867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/SQUEAKS/SQUEAK_Metal_Hinge_02_mono.wav
+  artifactKey: Guid(4baeef1e100fed547af413a24012b585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SQUEAKS/SQUEAK_Metal_Hinge_02_mono.wav using Guid(4baeef1e100fed547af413a24012b585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed49ae4e26285e240be5391b9e1e73ea') in 0.031050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Beep_Three_Note_Fast_Climb_Delay_stereo.wav
+  artifactKey: Guid(dde0834a942c3c847a73ae2929306400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Beep_Three_Note_Fast_Climb_Delay_stereo.wav using Guid(dde0834a942c3c847a73ae2929306400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b82541c09bb7bd4cbb539a588adf5ae') in 0.042979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_01B_Charge_Up_2_stereo.wav
+  artifactKey: Guid(40686fa15159ce642901deb76799d02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_01B_Charge_Up_2_stereo.wav using Guid(40686fa15159ce642901deb76799d02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd74303fcf770d4e95be3fe958ce7b6e') in 0.042983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_03_Warp_A_stereo.wav
+  artifactKey: Guid(571a4435f5d07be499a0b98ef0dec3af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_03_Warp_A_stereo.wav using Guid(571a4435f5d07be499a0b98ef0dec3af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6696bfd134c9a509aaf38493840e31fa') in 0.044561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.385 seconds
-Refreshing native plugins compatible for Editor in 8.78 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.938 seconds
-Domain Reload Profiling: 1320ms
-	BeginReloadAssembly (138ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (173ms)
-		LoadAssemblies (240ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (938ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (625ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (334ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 9.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 9.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2548 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (50.1 KB). Loaded Objects now: 2995.
-Memory consumption went from 108.2 MB to 108.2 MB.
-Total: 5.758200 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.163400 ms MarkObjects: 5.316300 ms  DeleteObjects: 0.057000 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 2999.
+Memory consumption went from 69.5 MB to 69.5 MB.
+Total: 7.966100 ms (FindLiveObjects: 0.413200 ms CreateObjectMapping: 0.124200 ms MarkObjects: 7.400700 ms  DeleteObjects: 0.026600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -246,599 +804,146 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.438 seconds
-Refreshing native plugins compatible for Editor in 7.53 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.881 seconds
-Domain Reload Profiling: 1316ms
-	BeginReloadAssembly (134ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (233ms)
-		LoadAssemblies (239ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (63ms)
-			TypeCache.Refresh (44ms)
-				TypeCache.ScanAssembly (34ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (881ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (579ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (317ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 7.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (44.9 KB). Loaded Objects now: 2995.
-Memory consumption went from 107.9 MB to 107.8 MB.
-Total: 5.516600 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.165600 ms MarkObjects: 5.114400 ms  DeleteObjects: 0.055700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 9.434775 seconds.
+  path: Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Platform_Positive_03b_Slow_stereo.wav
+  artifactKey: Guid(447d7c5c63e7d6d48b7b07c5e9f9ef4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/MUSIC_EFFECTS/MUSIC_EFFECT_Platform_Positive_03b_Slow_stereo.wav using Guid(447d7c5c63e7d6d48b7b07c5e9f9ef4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76a2133d77c786d4d0a2fc60b223b757') in 0.047779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.379 seconds
-Refreshing native plugins compatible for Editor in 8.23 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.933 seconds
-Domain Reload Profiling: 1309ms
-	BeginReloadAssembly (133ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (175ms)
-		LoadAssemblies (234ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (933ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (614ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (334ms)
-			ProcessInitializeOnLoadMethodAttributes (151ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 7.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (43.4 KB). Loaded Objects now: 2998.
-Memory consumption went from 107.9 MB to 107.8 MB.
-Total: 5.886600 ms (FindLiveObjects: 0.182100 ms CreateObjectMapping: 0.153400 ms MarkObjects: 5.486000 ms  DeleteObjects: 0.064400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Universal Sound FX/TIME_WARPS/TIME_WARP_Start_05_mono.wav
+  artifactKey: Guid(c312864aacdbe6745ab86255ef1579ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/TIME_WARPS/TIME_WARP_Start_05_mono.wav using Guid(c312864aacdbe6745ab86255ef1579ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '385f5b5011fba98d144a7a8bd6524199') in 0.025642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.397 seconds
-Refreshing native plugins compatible for Editor in 7.73 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.905 seconds
-Domain Reload Profiling: 1299ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (247ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (906ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (598ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (323ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 7.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (43.4 KB). Loaded Objects now: 3001.
-Memory consumption went from 107.9 MB to 107.8 MB.
-Total: 5.798200 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.170100 ms MarkObjects: 5.378100 ms  DeleteObjects: 0.053200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Complex_04_Deep_stereo.wav
+  artifactKey: Guid(93ce72f173dc87d4f9b076c6d5a4ec86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Complex_04_Deep_stereo.wav using Guid(93ce72f173dc87d4f9b076c6d5a4ec86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0164bacfe42a2b327ab69efdfb90cec') in 0.047200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.385 seconds
-Refreshing native plugins compatible for Editor in 7.87 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.912 seconds
-Domain Reload Profiling: 1292ms
-	BeginReloadAssembly (134ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (175ms)
-		LoadAssemblies (238ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (913ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (603ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (324ms)
-			ProcessInitializeOnLoadMethodAttributes (150ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 8.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (43.4 KB). Loaded Objects now: 3004.
-Memory consumption went from 107.9 MB to 107.8 MB.
-Total: 6.051100 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.154300 ms MarkObjects: 5.646200 ms  DeleteObjects: 0.071900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_03B_Charge_Up_1_stereo.wav
+  artifactKey: Guid(79133ad5bda74674aa63b850e5e081a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_03B_Charge_Up_1_stereo.wav using Guid(79133ad5bda74674aa63b850e5e081a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd199a9db2c8292fa01e744227028d3fd') in 0.044025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.421 seconds
-Refreshing native plugins compatible for Editor in 7.66 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.938 seconds
-Domain Reload Profiling: 1356ms
-	BeginReloadAssembly (153ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (196ms)
-		LoadAssemblies (254ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (938ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (622ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (156ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 7.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (43.4 KB). Loaded Objects now: 3007.
-Memory consumption went from 107.9 MB to 107.8 MB.
-Total: 5.796500 ms (FindLiveObjects: 0.216300 ms CreateObjectMapping: 0.144100 ms MarkObjects: 5.372500 ms  DeleteObjects: 0.062900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Violin_Pizzicato_Three_Note_Bright_Wet_stereo.wav
+  artifactKey: Guid(4a6251e10f296174ebd9b88f02ba71ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Violin_Pizzicato_Three_Note_Bright_Wet_stereo.wav using Guid(4a6251e10f296174ebd9b88f02ba71ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95dbf3199e6c9204c7fd341b6e505000') in 0.043759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.390 seconds
-Refreshing native plugins compatible for Editor in 7.75 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.951 seconds
-Domain Reload Profiling: 1338ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (175ms)
-		LoadAssemblies (238ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (951ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (622ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (56ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (337ms)
-			ProcessInitializeOnLoadMethodAttributes (151ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 10.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (43.4 KB). Loaded Objects now: 3010.
-Memory consumption went from 107.9 MB to 107.8 MB.
-Total: 5.899600 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.168300 ms MarkObjects: 5.488200 ms  DeleteObjects: 0.055300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Two_Note_Fast_Wet_stereo.wav
+  artifactKey: Guid(837600496ba4b4743a0dfb321609f375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Two_Note_Fast_Wet_stereo.wav using Guid(837600496ba4b4743a0dfb321609f375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77a1a64a4960f51d985a7ba67b75bf76') in 0.043785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3010.
-Memory consumption went from 68.6 MB to 68.6 MB.
-Total: 7.646900 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.165800 ms MarkObjects: 7.173600 ms  DeleteObjects: 0.020000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_03A_Charge_Up_2_stereo.wav
+  artifactKey: Guid(aa6305697bd33ea4f9dcfcc757e0ce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_03A_Charge_Up_2_stereo.wav using Guid(aa6305697bd33ea4f9dcfcc757e0ce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd73565399ba6ef7cc3157f8b0547fe0d') in 0.044196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.12 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3010.
-Memory consumption went from 68.5 MB to 68.5 MB.
-Total: 5.974400 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.150800 ms MarkObjects: 5.623000 ms  DeleteObjects: 0.014500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_01B_Charge_Up_1_stereo.wav
+  artifactKey: Guid(4201fc6087a41e24e9600504991a7c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_01B_Charge_Up_1_stereo.wav using Guid(4201fc6087a41e24e9600504991a7c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'faff72daf1cd40e128081066003643cd') in 0.042893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3010.
-Memory consumption went from 68.5 MB to 68.5 MB.
-Total: 6.254200 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.157200 ms MarkObjects: 5.879900 ms  DeleteObjects: 0.020600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Universal Sound FX/SQUEAKS/SQUEAK_Metal_Hinge_08_mono.wav
+  artifactKey: Guid(b32301cc3d7ec84459242c751300b0ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SQUEAKS/SQUEAK_Metal_Hinge_08_mono.wav using Guid(b32301cc3d7ec84459242c751300b0ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c91d5bb75c16c9cb31fd83ffd2ba59d') in 0.027485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.407 seconds
-Refreshing native plugins compatible for Editor in 7.92 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.902 seconds
-Domain Reload Profiling: 1304ms
-	BeginReloadAssembly (147ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (241ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (902ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (601ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (318ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 8.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (43.4 KB). Loaded Objects now: 3013.
-Memory consumption went from 107.9 MB to 107.9 MB.
-Total: 6.412200 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.136700 ms MarkObjects: 6.026600 ms  DeleteObjects: 0.061200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_2_Fast_Two_Note_Dry_stereo.wav
+  artifactKey: Guid(f16436882b3db3343873ade94c213e0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_2_Fast_Two_Note_Dry_stereo.wav using Guid(f16436882b3db3343873ade94c213e0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ac002f6716b78275bc5cb35d1367843') in 0.038040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.405 seconds
-Refreshing native plugins compatible for Editor in 9.09 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.934 seconds
-Domain Reload Profiling: 1336ms
-	BeginReloadAssembly (143ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (251ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (934ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (612ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (334ms)
-			ProcessInitializeOnLoadMethodAttributes (156ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 8.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (43.4 KB). Loaded Objects now: 3016.
-Memory consumption went from 107.9 MB to 107.9 MB.
-Total: 6.166200 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.136200 ms MarkObjects: 5.784200 ms  DeleteObjects: 0.059300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Universal Sound FX/THUDS_THUMPS/THUD_Smooth_02_mono.wav
+  artifactKey: Guid(997abee33cf357048aaac3a41612151a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/THUDS_THUMPS/THUD_Smooth_02_mono.wav using Guid(997abee33cf357048aaac3a41612151a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03fb271e6b0d2dcf86fbd2d5373e9d1b') in 0.025663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Three_Note_Fast_Wet_stereo.wav
+  artifactKey: Guid(1c33c058a2ef0df4cb390fe179dff7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Harp_Three_Note_Fast_Wet_stereo.wav using Guid(1c33c058a2ef0df4cb390fe179dff7bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19f0c56acf9fc2603041dca2d5ae5c95') in 0.039807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_1_Three_Note_Wet_stereo.wav
+  artifactKey: Guid(8f86eb87f6dc29c4fbbf64a18beac1ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_1_Three_Note_Wet_stereo.wav using Guid(8f86eb87f6dc29c4fbbf64a18beac1ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb82dc678ec3acc497b21a1eb06709fe') in 0.040631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_1_Three_Note_Climb_Dry_stereo.wav
+  artifactKey: Guid(a3c23b7164e7f224da45d4337d6a9eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Guitar_1_Three_Note_Climb_Dry_stereo.wav using Guid(a3c23b7164e7f224da45d4337d6a9eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f38a339f4e7f95f4ee92f65fa946d4a') in 0.038006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_2_Two_Note_Decline_Bright_Delay_stereo.wav
+  artifactKey: Guid(0374b3d1ba390be479d11197558025d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/PUZZLES/PUZZLE_Success_Xylophone_2_Two_Note_Decline_Bright_Delay_stereo.wav using Guid(0374b3d1ba390be479d11197558025d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '888a553586315c474c23de2f7629f1be') in 0.039642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02A_Charge_Up_1_stereo.wav
+  artifactKey: Guid(7f50b00dec92a25449d3911b78342ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Universal Sound FX/SPACE_WARPS/SPACE_WARP_Type_02A_Charge_Up_1_stereo.wav using Guid(7f50b00dec92a25449d3911b78342ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59a2ebc5855d069a04fe360427c0aa1c') in 0.043970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
